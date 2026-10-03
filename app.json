@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "COOK FROM THIS",
+    "slug": "cook-from-this",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FBF9F5",
+    "icon": "./assets/brand/icon.png",
+    "ios": {
+      "bundleIdentifier": "com.giselly.cookfromthis",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.giselly.cookfromthis",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/brand/adaptive-icon.png",
+        "backgroundColor": "#FBF9F5"
+      }
+    },
+    "web": {
+      "name": "COOK FROM THIS",
+      "shortName": "COOK",
+      "themeColor": "#364735",
+      "backgroundColor": "#FBF9F5",
+      "favicon": "./assets/brand/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FBF9F5",
+          "image": "./assets/brand/splash-wordmark.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "android": {
+            "imageWidth": 180
+          }
+        }
+      ]
+    ]
+  }
+}
